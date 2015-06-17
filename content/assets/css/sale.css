@@ -1,0 +1,247 @@
+#saleContainer
+{
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.saleBlock
+{
+    padding: 2em 2em 0 2em;
+    margin-top:  10px;
+    background: #fbfaf8;
+    position: relative;
+    height: 365px;
+
+    border-top: 1px dashed #cfcfcf;
+    border-radius: 10px 10px 0 0;
+}
+.saleBlock:before
+{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: -10px;
+    left: 20px;
+    background: url(../images/kaishy.gif) no-repeat 0 0;
+    content: "";
+}
+.aboutSaleGood
+{
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 80px;
+    padding: 15px 0;
+    box-shadow: 0 26px 20px -30px #CCC;
+    background: #f5edde;
+
+    border-bottom: 1px dashed #cfcfcf;
+    border-radius: 0 0 10px 10px;
+}
+
+.saleTable
+{
+    /*    position: absolute;
+        left: 5%;
+        top: 30px;*/
+    margin-left: 5%;
+    max-width: 1200px;
+    min-width: 620px;
+}
+.saleTable .h1 { font-size: 1.8em; margin: 10px 0;}
+.saleTable .h3 { font-size: 1.5em; white-space: nowrap; font-weight: normal;}
+
+.saleTable:after{ content: ''; display:block; clear:both; }
+
+.picPlace
+{
+    position: absolute;
+    top: 85px;
+    left: 50%;
+    text-align: center;
+    width: 45%;
+    max-height: 300px;
+}
+.goodPic
+{
+    max-height: 300px;
+    max-width: 60%;
+    float: right;
+    margin-left: 50px;
+}
+
+.saleHeader
+{
+    color: #ff6600;
+    padding-bottom: 0;
+}
+.saleTime
+{
+    position: relative;
+    top: -2px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+}
+.timeLeft td
+{
+    padding: 0 1px;
+    /*font-weight: bold;*/
+}
+.timeLeft tr:last-of-type td
+{
+    font-size: .45em;
+    color: #7d7d7d;
+}
+
+/*#saleDescr
+    {
+    font-size: .8em;
+    }*/
+.saleAbout
+{
+    display: block;
+    line-height: 1.5em;
+    font-size: 14px;
+    padding-bottom: 10px;
+    /*width: 50%;*/
+}
+.saleSalonName
+{
+    /*    display: inline-block;
+        margin: 10px 0;*/
+}
+
+.aboutPrice
+{
+    margin: 10px 0 20px 30px;
+    padding: 18px 30px 0;
+    display: inline-block;
+    height: 65px;
+    text-align: center;
+    position: relative;
+    background: #fff;
+    border: 3px solid #f5edde;
+    border-radius: 8px;
+}
+.aboutPrice:before,
+.aboutPrice:after
+{
+    content: '';
+    display: block;
+    position: absolute;
+    top: 20px;
+    width: 40px;
+    height: 43px;
+    background: #fff;
+}
+.aboutPrice:before
+{
+    border-left: 3px solid #f5edde;
+    border-radius: 50% 0 0 50%;
+    left: -15px;
+}
+.aboutPrice:after
+{
+    border-right: 3px solid #f5edde;
+    border-radius: 0 50% 50% 0;
+    right: -15px;
+}
+.aboutPrice h2
+{
+    padding: 0;
+    line-height: 1.3em;
+}
+.salePrice
+{
+    color: #FF6600;
+    font-size: 1.6em;
+    font-weight: bold;
+    white-space: nowrap;
+}
+.saleGoodOldPrice
+{
+    color: #666;
+    display: inline-block;
+    position: relative;
+    margin: 0 7px;
+}
+.saleGoodOldPrice span
+{
+    display: inline-block;
+    width: 114%;
+    border-top: 2px solid red;
+    position: absolute;
+    top: .6em;
+    left: -7%;
+    /*transform: rotate(-5deg);*/
+}
+
+.saleParams
+{
+    font-size: 14px;
+    padding-bottom: 10px;
+    line-height: 1.4em;
+    width: 900px;
+    margin: 0 auto;
+}
+
+.saleButtons
+{
+    position: absolute;
+    bottom: 15px;
+    text-align: center;
+    font-size: 16px;
+    width: 100%;
+    height: 8px;
+}
+.saleButtonQ
+{
+    background: #fffefc;
+    padding: 7px 15px;
+    border-radius: 5px;
+    display: inline-block;
+
+    -webkit-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+}
+.saleButtons button::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+.saleButtons button
+{
+    position: relative;
+    left: -20px;
+    padding: 8px 15px;
+    /*font-size: 16px;*/
+}
+
+
+#consultant
+{
+    display: inline-block;
+    margin-left: 90px;
+}
+.askConsultant
+{
+    margin-bottom: 7px;
+}
+.askConsultant:hover { border-color: #e0b8d8 }
+
+#learnMore
+{
+    background: none repeat scroll 0 0 #FFFEFC;
+    border-radius: 5px 5px 5px 5px;
+    bottom: -17px;
+    box-shadow: 0 1px 2px 1px #AAAAAA;
+    display: inline-block;
+    font-size: 0.9em;
+    padding: 0.5em 2em 0.5em 1em;
+    position: relative;
+    right: -1.5em;
+}
+
+#jivo_top_wrap { display: none }

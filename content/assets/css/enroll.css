@@ -1,0 +1,1026 @@
+@font-face {
+    font-family: 'PTSansBold';
+    src: url('/fonts/pts75f.eot');
+    src: url('/fonts/pts75f.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/pts75f.woff') format('woff'),
+    url('/fonts/pts75f.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PTSansRegular';
+    src: url('/fonts/pts55f.eot');
+    src: url('/fonts/pts55f.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/pts55f.woff') format('woff'),
+    url('/fonts/pts55f.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+/* ---------------------- Стили с сайта --------------------------------------- */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+    border: 0 none;
+    margin: 0;
+    outline: 0 none;
+    padding: 0;
+}
+body {
+    background: url("/i/enroll/body-bg-new.jpg") repeat fixed center top transparent;
+    padding: 25px 0 0;
+    position: relative;
+}
+#page-wrap {
+    background: #FFFFFF;
+    position: relative;
+    width: 1110px;
+
+    margin: 0 auto 48px;
+}
+#page-inner-wrap {
+    background: #FFFFFF;
+    margin: 0 auto;
+    padding: 20px 0 0;
+    position: relative;
+    width: 980px;
+}
+.clr {
+    clear: both;
+}
+/* ---------------------- Закончились стили с сайта --------------------------------------- */
+
+
+#registration-page {
+    position: relative;
+}
+#registration-page .page-title {
+    text-align: center;
+    padding: 0 0 30px;
+}
+#registration-page .logo {
+    background: url("../images/logo.gif") no-repeat scroll 0 0 transparent;
+    display: block;
+    height: 56px;
+    width: 170px;
+    margin: 23px auto 0px;
+}
+#registration-page h1 {
+    font-family: PTSansBold,Arial,Helvetica,sans-serif;
+    font-size: 30px;
+    font-weight: normal;
+}
+#registration-page h2 {
+    font-family: PTSansBold,Arial,Helvetica,sans-serif;
+    font-size: 25px;
+    line-height: 35px;
+    font-weight: normal;
+}
+#registration-page h3 {
+    font-family: PTSansBold,Arial,Helvetica,sans-serif;
+    font-size: 17px;
+    font-weight: normal;
+}
+#registration-page h4 {
+    font-family: PTSansRegular,Arial,Helvetica,sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+}
+.slogan-wrap {
+    background: url("/i/enroll/slogan-bg.jpg") no-repeat scroll 0 0 transparent;
+    height: 383px;
+    left: 50%;
+    margin-left: -555px;
+    position: relative;
+    width: 1110px;
+}
+.slogan-wrap blockquote{
+    font-family: Georgia,Times,serif;
+    position: absolute;
+    top: 125px;
+    left: 60px;
+    width: 470px;
+    color: #ffffff;
+    padding: 0 0 0 10px;
+    font-size: 30px;
+}
+.slogan {
+    display: block;
+    text-indent: -18px;
+    width: 460px;
+}
+/*.slogan:before {
+    content: '«';
+}
+.slogan:after {
+    content: '»';
+}*/
+
+.slogan-author {
+    font-family: PTSansRegular,Arial,Helvetica,sans-serif;
+    font-size: 17px;
+    text-align: right;
+    margin-top: 30px;
+    display: block;
+}
+.slogan-author a {
+    color: #ffffff;
+}
+.slogan-author a:hover {
+    text-decoration: underline;
+    color: #d2cccc;
+}
+
+.profit-wrap {
+    height: 730px;
+    background: #ffffff;
+}
+.profit-page-example-block {
+    float: left;
+    width: 50%;
+    position: relative;
+}
+.profit-page-example-img {
+    position: absolute;
+    top: -290px;
+    left: -5px;
+    width: 480px;
+    height: 960px;
+    overflow: hidden;
+}
+.profit-page-example-block .shadow-frame {
+    position: absolute;
+    top: -285px;
+    left: 0;
+    width: 471px;
+    height: 960px;
+    -moz-box-shadow: 0 0 18px rgba(60, 46, 46, 0.35);
+    -o-box-shadow: 0 0 18px rgba(60, 46, 46, 0.35);
+    -webkit-box-shadow: 0 0 18px rgba(60, 46, 46, 0.35);
+    box-shadow: 0 0 18px rgba(60, 46, 46, 0.35);
+}
+.profit-page-example-block .shadow {
+    background: #ffffff;
+    height: 50px;
+    left: -20px;
+    position: relative;
+    top: 670px;
+    width: 510px;
+    -moz-box-shadow: 0 -10px 8px -6px rgba(60, 46, 46, 0.25);
+    -o-box-shadow: 0 -10px 8px -6px rgba(60, 46, 46, 0.25);
+    -webkit-box-shadow: 0 -10px 8px -6px rgba(60, 46, 46, 0.25);
+    box-shadow: 0 -10px 8px -6px rgba(60, 46, 46, 0.25);
+}
+
+.profit-text-block {
+    float: right;
+    width: 50%;
+    position: relative;
+    color: #363636;
+}
+.profit-text-block h1 {
+    padding: 50px 0 0 50px;
+}
+.profit-text-block ul,
+.profit-text-block p {
+    width: 460px;
+    margin-left: 52px;
+    list-style: none;
+}
+.profit-text-block li {
+    background: url('/i/enroll/purple-check-big.png') no-repeat 0 20px transparent;
+    padding: 20px 0 0 43px;
+}
+.profit-text-block li,
+.profit-text-block p {
+    font-family: PTSansRegular,Arial,Helvetica,sans-serif;
+    font-size: 17px;
+    line-height: 24px;
+}
+.profit-text-block p {margin-top: 20px}
+.profit-text-submit {
+    width: 420px;
+    height: 60px;
+    margin-left: 50px;
+    padding-top: 37px;
+}
+
+a.profit-text-submit-btn, a.rates-btn {
+    border: none;
+    border-radius: 7px 7px 7px 7px;
+    text-decoration: none;
+    margin-left: 45px;
+    display: block;
+
+    font-family: PTSansBold,Arial,Helvetica,sans-serif;
+    font-size: 20px;
+    line-height: 50px;
+    color: #fff;
+    text-indent: 20px;
+
+    width: 315px;
+    height: 46px;
+    padding: 0 10px 0 5px;
+
+    background: #f2b6f2;
+    background: -moz-linear-gradient(top, #f2b6f2, #994c73);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f2b6f2), color-stop(100%, #994c73));
+    background: -webkit-linear-gradient(top, #f2b6f2, #994c73);
+    background: -o-linear-gradient(top, #f2b6f2, #994c73);
+    background: -ms-linear-gradient(top, #f2b6f2, #994c73);
+    background: linear-gradient(top, #f2b6f2, #994c73);
+
+    -moz-box-shadow: 0 2px 2px 0 #aaa;
+    -webkit-box-shadow: 0 2px 2px 0 #aaa;
+    box-shadow: 0 2px 2px 0 #aaa;
+}
+a.rates-btn {
+    display: inline-block;
+    height: auto;
+    line-height: 1em;
+    margin: 0 auto 50px;
+    padding: 15px 20px 14px;
+    text-indent: 0;
+    width: auto;
+}
+a.profit-text-submit-btn:hover, a.rates-btn:hover {
+    text-decoration: none;
+    border: none;
+
+    background: #f2aaf2;
+    background: -moz-linear-gradient(top, #f2aaf2, #912c5e);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f2aaf2), color-stop(100%, #912c5e));
+    background: -webkit-linear-gradient(top, #f2aaf2, #912c5e);
+    background: -o-linear-gradient(top, #f2aaf2, #912c5e);
+    background: -ms-linear-gradient(top, #f2aaf2, #912c5e);
+    background: linear-gradient(top, #f2aaf2, #912c5e);
+}
+a.profit-text-submit-btn:active, a.rates-btn:active {
+    text-decoration: none;
+    border: none;
+
+    background: #912c5e;
+    background: -moz-linear-gradient(top, #912c5e, #f2aaf2);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#912c5e), color-stop(100%,#f2aaf2));
+    background: -webkit-linear-gradient(top, #912c5e, #f2aaf2);
+    background: -o-linear-gradient(top, #912c5e, #f2aaf2);
+    background: -ms-linear-gradient(top, #912c5e, #f2aaf2);
+    background: linear-gradient(top, #912c5e, #f2aaf2);
+
+    box-shadow: none;
+    outline: none;
+}
+
+.profit-text-note {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #000;
+    line-height: 24px;
+    margin-left: 95px;
+}
+
+/* -------------------- Registration -----------------------------------*/
+#registration-page .page-title h1 {
+    line-height: 36px;
+    margin: 10px 0 3px;
+}
+#registration-page .purple {
+    color: #b776aa;
+}
+#registration-page .title-note {
+    font-family: PTSansRegular,Arial,Helvetica,sans-serif;
+    font-size: 16px;
+    line-height: 35px;
+}
+.registration-wrap {
+    background: url("/i/enroll/registration-bg.jpg") no-repeat scroll 0 0 transparent;
+    height: 623px;
+    left: 50%;
+    margin-left: -555px;
+    margin-top: 35px;
+    position: relative;
+    width: 1110px;
+}
+.registration-arrow {
+    background: url('/i/enroll/registration-arrow.png') no-repeat scroll 0 0 transparent;
+    height: 201px;
+    left: 165px;
+    position: absolute;
+    top: -125px;
+    width: 107px;
+    z-index: 50;
+}
+.registration-advetages-bg {
+    width: 650px;
+    height: 360px;
+    background: #ffffff;
+    border-radius: 10px;
+    position: absolute;
+    top: 117px;
+    left: 365px;
+    opacity: 0.9;
+}
+.registration-form {
+    width: 515px;
+    height: 528px;
+    background: #fff5e9;
+    border-radius: 10px;
+    position: absolute;
+    top: 45px;
+    left: 134px;
+
+    background: url('/i/enroll/registration-form-bg.png') no-repeat 0 0 transparent;
+
+    -moz-box-shadow: 0 13px 13px rgba(196, 160, 114, 0.47);
+    -webkit-box-shadow: 0 13px 13px rgba(196, 160, 114, 0.47);
+    box-shadow: 0 13px 13px rgba(196, 160, 114, 0.47);
+}
+.registration-form-left{
+    float: left;
+    width: 200px;
+}
+.registration-form-left label {
+    margin: 46px 0 0 55px;
+    font-family: PTSansBold,Arial,Helvetica,sans-serif;
+    font-size: 17px;
+    line-height: 20px;
+    display: block;
+}
+.registration-form-right{
+    float: right;
+    width: 310px;
+    padding-top: 7px;
+    position: relative;
+}
+.select-margintop {
+    margin-top: 30px;
+}
+.registration-form-right input, .registration-form-right select{
+    /*    margin-top: 31px;*/
+    border: 1px solid #f2dbc0;
+    border-radius: 5px;
+
+    font-family: PTSansRegular,Arial,Helvetica,sans-serif;
+    font-size: 16px;
+    vertical-align: middle;
+
+    -moz-box-shadow: inset 0 1px 3px -1px rgba(124, 97, 65, 0.75);
+    -webkit-box-shadow: inset 0 1px 3px -1px rgba(124, 97, 65, 0.75);
+    box-shadow: inset 0 1px 3px -1px rgba(124, 97, 65, 0.75);
+
+    outline: none;
+}
+.registration-error {
+    border: 1px solid #faaea6 !important;
+    background: #fcd8d8;
+}
+.registration-form-right input:focus{
+    border:  1px solid #c8ed60;
+}
+.registration-form-right input{
+    padding: 0 10px 0;
+    height: 37px;
+
+    width: 236px;
+}
+.registration-form-right input, .phone-wrap {margin-top: 27px;}
+.phone-wrap input {width: auto; margin: 0}
+.phone-wrap {
+    font-family: PTSansRegular,Arial,Helvetica,sans-serif;
+    font-size: 16px;
+    vertical-align: middle;
+}
+.registration-form-right select{
+    padding: 10px 7px 1px 10px;
+    width: 256px;
+    height: 39px;
+}
+.registration-form-note, .registration-form-error {
+    color: #776755;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 11px;
+    font-style: italic;
+    display: block;
+    width: 320px;
+    margin: 2px;
+    position: absolute;
+}
+.registration-form-error {
+    color: #e94e4e;
+}
+#registration-form-pass-eye {
+    position: absolute;
+    bottom: 10px;
+    right: 65px;
+    width: 25px;
+    height: 14px;
+    background: url('/i/enroll/pass-eye.png') no-repeat 0 0 transparent;
+    display: block;
+    cursor: pointer;
+}
+#msg {
+    position: absolute;
+    top: -40px;
+    left: 50px;
+    right: 50px;
+    border: 1px solid #faaea6 !important;
+    background: #fcd8d8;
+    color: #900;
+    padding: 10px 30px 10px 10px;
+    border-radius: 10px;
+    z-index: 100;
+}
+#msg a.del {
+    color: #900;
+    display: block;
+    font-size: 30px;
+    height: 20px;
+    line-height: 20px;
+    position: absolute;
+    right: 5px;
+    text-decoration: none;
+    top: 10px;
+    width: 20px;
+}
+.registration-form-submit {
+    position: relative;
+    height: 50px;
+    width: 256px;
+    top: 48px;
+    margin: 0 auto;
+}
+.registration-form-submit input{
+    width: 256px;
+    padding: 10px 0 9px;
+    overflow: hidden;
+    cursor:pointer;
+
+    border: none;
+    border-radius: 5px;
+
+    font: normal 20px PTSansBold,Arial,Helvetica,sans-serif;
+    color: #fff;
+
+    background: #f2b6f2;
+    background: -moz-linear-gradient(top, #f2b6f2, #994c73);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f2b6f2), color-stop(100%, #994c73));
+    background: -webkit-linear-gradient(top, #f2b6f2, #994c73);
+    background: -o-linear-gradient(top, #f2b6f2, #994c73);
+    background: -ms-linear-gradient(top, #f2b6f2, #994c73);
+    background: linear-gradient(top, #f2b6f2, #994c73);
+
+    -moz-box-shadow: 0 2px 2px 0 #aaa;
+    -webkit-box-shadow: 0 2px 2px 0 #aaa;
+    box-shadow: 0 2px 2px 0 #aaa;
+}
+.registration-form-submit input:hover {
+    background: #f2aaf2;
+    background: -moz-linear-gradient(top, #f2aaf2, #912c5e);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f2aaf2), color-stop(100%, #912c5e));
+    background: -webkit-linear-gradient(top, #f2aaf2, #912c5e);
+    background: -o-linear-gradient(top, #f2aaf2, #912c5e);
+    background: -ms-linear-gradient(top, #f2aaf2, #912c5e);
+    background: linear-gradient(top, #f2aaf2, #912c5e);
+}
+.registration-form-submit input:active {
+    background: #912c5e;
+    background: -moz-linear-gradient(top, #912c5e, #f2aaf2);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#912c5e), color-stop(100%,#f2aaf2));
+    background: -webkit-linear-gradient(top, #912c5e, #f2aaf2);
+    background: -o-linear-gradient(top, #912c5e, #f2aaf2);
+    background: -ms-linear-gradient(top, #912c5e, #f2aaf2);
+    background: linear-gradient(top, #912c5e, #f2aaf2);
+
+    box-shadow: none;
+}
+
+.registration-form-submit-note {
+    color: #4c6d2c;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    position: absolute;
+    top: 42px;
+    left: 43px;
+    cursor: pointer;
+}
+.registration-advetages {
+    position: absolute;
+    top: 180px;
+    left: 678px;
+}
+.registration-advetages h3 {
+    width: 250px;
+}
+.registration-advetages ul {
+    list-style: none;
+    width: 305px;
+}
+.registration-advetages li {
+    background: url('/i/enroll/registration-check-small.png') no-repeat 2px 11px transparent;
+    padding: 13px 0 0 30px;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.registration-faq {
+    min-height: 420px;
+    text-align: center;
+}
+.registration-faq-pic {
+    background: url('/i/enroll/registration-q.png') no-repeat 0 0 transparent;
+    position: relative;
+    width: 35px;
+    height: 35px;
+    top: -16px;
+    left: 469px;
+}
+.registration-faq-row {
+    width: 100%;
+    margin-top: 30px;
+}
+.registration-faq-row p {
+    float: left;
+    width: 50%;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: left;
+}
+.registration-faq-q {
+    display: block;
+    font-family: PTSansBold,Arial,Helvetica,sans-serif;
+    font-size: 17px;
+    margin-left: 30px;
+}
+.registration-faq-a {
+    display: block;
+    margin: 5px 0 0 50px;
+    width: 410px;
+}
+
+.registration-rates-link {
+    background: #f3f3f3;
+    height: 22px;
+    left: 50%;
+    margin-left: -555px;
+    position: relative;
+    width: 1110px;
+    text-align: center;
+    padding: 23px 0 17px;
+}
+.registration-rates-link a {
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 16px;
+    color: #4c900f;
+    text-decoration: none;
+    border-bottom: 1px solid rgba(105,177,42,0.4);
+}
+.registration-rates-link a:hover {
+    color:#69b12a;
+    border-bottom: 1px solid rgba(105,177,42,1);
+}
+
+
+/* -------------------- / Registration -----------------------------------*/
+
+/* -------------------- Rates -----------------------------------*/
+.rates-global-wrap {
+    margin-top: 30px;
+}
+.rates-wrap {
+    left: 50%;
+    margin-left: -500px;
+    min-height: 380px;
+    position: relative;
+    width: 1000px;
+}
+.rates-head-tr h2 {
+    padding: 0 25px;
+}
+.rates-head {
+    height: 180px;
+    width: 100%;
+    position: relative;
+}
+.rates-head noscript {
+    position: absolute;
+    top: 5px;
+    left:0;
+    width: 480px;
+    font-size:13px;
+    color:#aa1e29;
+    text-align: center;
+}
+.rates-head-tr {
+    height: 60px;
+    width: 100%;
+    padding: 25px 0;
+    position: absolute;
+    top: 54px;
+    left: 0;
+    background: #f5f6f7;
+}
+.rates-select {
+    padding: 0px 25px;
+}
+.page-title select {
+    font-family: PTSansRegular,Arial,Helvetica,sans-serif;
+    font-size: 17px;
+    color: #067bbb;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.rates-select span {
+    font-family: PTSansRegular,Arial,Helvetica,sans-serif;
+    font-size: 17px;
+    color: #067bbb;
+    position: relative;
+    top: 5px;
+    margin-left: 17px;
+}
+.rates-head-rate {
+    z-index: 90;
+    width: 153px;
+    height: 177px;
+    position: absolute;
+    top: 0;
+    text-align: center;
+    background: url('/i/enroll/rates-bg.png') no-repeat 0 0 transparent;
+    font-family: PTSansRegular,Arial,Helvetica,sans-serif;
+    font-size: 17px;
+    color: #ffffff;
+}
+.rates-head-rate.premium-rate {
+    background-position: -306px 0;
+    right: 345px;
+}
+.rates-head-rate.standart-rate {
+    background-position: -153px 0;
+    right: 184px;
+}
+.rates-head-rate.free-rate {
+    right: 23px;
+}
+.rates-head-rate.fixed {
+    height: 54px;
+    overflow: hidden;
+}
+.rates-head-rate-title {
+    display: block;
+    padding: 10px 17px;
+    font-family: PTSansBold,Arial,Helvetica,sans-serif;
+    font-size: 17px;
+    line-height: 19px;
+}
+.rates-head-rate-title small {font-family: PTSansRegular,Arial,Helvetica,sans-serif;}
+.rates-head-rate-price {
+    display: block;
+    padding: 20px 0 0;
+    font-family: PTSansBold,Arial,Helvetica,sans-serif;
+    font-size: 25px;
+    line-height: 25px;
+}
+.rates-head-rate-note {
+    display: block;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    color: #363636;
+    padding: 6px 0 0;
+}
+.rates-body {
+    padding-bottom: 35px;
+    position: relative;
+}
+.rates-body table {
+    font-family: PTSansRegular,Arial,Helvetica,sans-serif;
+    font-size: 17px;
+    font-weight: normal;
+    line-height: 23px;
+    width: 100%;
+    border: none;
+    border-collapse: collapse;
+    margin-bottom: 35px;
+}
+.rates-body thead {
+    font-family: PTSansBold,Arial,Helvetica,sans-serif;
+    font-size: 25px;
+    line-height: 19px;
+    height: 50px;
+}
+.rates-body td {
+    padding: 15px 8px 15px 0;
+    width: 165px;
+    vertical-align: middle;
+    text-align: center;
+}
+.rates-body td:first-child {
+    padding: 15px 20px !important;
+    width: 520px;
+    text-align: left;
+}
+.rates-body td:last-child {
+    padding: 15px 23px 15px 0;
+}
+.rates-body td p{
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    color: #363636;
+    margin: 5px 20px;
+}
+
+.rates-table-grey-tr {
+    background: #f5f6f7;
+}
+
+.rates-table-minus {
+    display: block;
+    width: 21px;
+    height: 6px;
+    background: url('/i/enroll/rates-minus.png') no-repeat 0 0 transparent;
+    margin: 0 auto;
+}
+.rates-table-check {
+    display: block;
+    width: 26px;
+    height: 21px;
+    background: url('/i/enroll/registration-check-big.png') no-repeat 0 0 transparent;
+    margin: 0 0 0 68px;
+}
+
+.rates-btn-wrap {text-align: center;}
+/* -------------------- / Rates -----------------------------------*/
+
+/* ---------- Остались вопросы? Контакты ------------------ */
+#registration-page .contact-us {
+    min-height: 400px;
+    background: #f6f2ed;
+    left: 50%;
+    margin-left: -555px;
+    position: relative;
+    width: 1110px;
+    text-align: center;
+
+    -moz-box-shadow: inset 0 10px 18px -10px rgba(78, 69, 54, 0.15);
+    -webkit-box-shadow: inset 0 10px 18px -10px rgba(78, 69, 54, 0.15);
+    box-shadow: inset 0 10px 18px -10px rgba(78, 69, 54, 0.15);
+}
+#registration-page .contact-us h2{
+    padding-top: 20px;
+}
+#registration-page .contact-us h3{
+    line-height: 30px;
+}
+#registration-page .contact-us h4{
+    margin: 6px 0 12px;
+}
+#registration-page .contact-us a{
+    color: #111111;
+}
+#registration-page .contact-us a:hover{
+    color: #666666;
+}
+#registration-page .contact-us a.tel {
+    text-decoration: none;
+}
+.mail-lines-inner > div {
+    float: left;
+    text-align: left;
+    margin-top: 25px;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    line-height: 23px;
+    width: 20%;
+    margin-left: 4.5%;
+}
+.city_num {
+    display: inline-block;
+    padding-bottom: .3em;
+}
+.mail {
+    display: inline-block;
+    padding-top: .3em;
+}
+.mail-lines-frame {
+    background: url('/i/enroll/mail-lines.png') repeat -5px 0 #ffffff;
+    width: 966px;
+    margin: 20px auto;
+    height: 230px;
+    padding: 7px;
+
+    -moz-box-shadow: 0 6px 8px rgba(61, 68, 74, 0.15);
+    -webkit-box-shadow: 0 6px 8px rgba(61, 68, 74, 0.15);
+    box-shadow: 0 6px 8px rgba(61, 68, 74, 0.15);
+}
+.mail-lines-inner {
+    background: #ffffff;
+    width: 100%;
+    height: 100%;
+}
+/* ---------- / Контакты ------------------ */
+
+/* -------------------- JQ Formstyler -------------------------------- */
+.registration-form-right .jq-selectbox__select{
+    /*margin-top: 31px;*/
+    border: 1px solid #f2dbc0;
+    border-radius: 5px;
+
+    font-family: PTSansRegular,Arial,Helvetica,sans-serif;
+    font-size: 16px;
+    line-height: 18px;
+    color: #000000;
+    text-shadow: none;
+    vertical-align: middle;
+
+    background: #ffffff;
+    -moz-box-shadow: inset 0 1px 3px -1px rgba(124, 97, 65, 0.75);
+    -webkit-box-shadow: inset 0 1px 3px -1px rgba(124, 97, 65, 0.75);
+    box-shadow: inset 0 1px 3px -1px rgba(124, 97, 65, 0.75);
+
+    outline: none;
+
+    padding: 10px 34px 1px 10px;
+    width: 212px;
+    height: 26px;
+}
+.registration-form-right .jq-selectbox__select:hover {
+    background: rgba(200, 237, 96, 0.5);
+}
+.registration-form-right .jq-selectbox__select:active {
+    background: #ffffff;
+    box-shadow: inset 1px 1px 3px #f2dbc0;
+}
+.registration-form-right .jq-selectbox.focused .jq-selectbox__select {
+    border: 1px solid #c8ed60;
+}
+.registration-form-right .jq-selectbox__trigger {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 34px;
+    height: 37px;
+    border: none;
+}
+.registration-form-right .jq-selectbox__trigger-arrow {
+    position: absolute;
+    top: 15px;
+    right: 10px;
+    width: 18px;
+    height: 13px;
+    overflow: hidden;
+    border: none;
+    background: url('/i/enroll/registration-select-arrows.png') no-repeat 0 0 transparent;
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+.registration-form-right .jq-selectbox:hover .jq-selectbox__trigger-arrow {
+    background-position: 0 -13px;
+}
+.registration-form-right .jq-selectbox__dropdown {
+    top: 3px;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 1px solid #f2dbc0;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+    font-family: PTSansRegular,Arial,Helvetica,sans-serif;
+    font-size: 16px;
+}
+.registration-form-right .jq-selectbox li {
+    padding: 7px 10px;
+    color: #000000;
+}
+.registration-form-right .jq-selectbox li.selected {
+    background-color: rgba(200, 237, 96, 0.5);
+    color: #000000;
+}
+.registration-form-right .jq-selectbox li:hover {
+    background-color: rgba(200, 237, 96, 0.5);
+    color: #000000;
+}
+
+.page-title select {
+    width: 250px;
+}
+.page-title .jq-selectbox {
+    width: 250px;
+    text-align: left;
+    margin: 0 -200px 0 3px;
+    top: -5px;
+    display: inline;
+}
+.page-title .jq-selectbox__select{
+    border: none;
+    border-radius: 0;
+
+    font-family: PTSansRegular,Arial,Helvetica,sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+    color: #067bbb;
+    text-shadow: none;
+    vertical-align: middle;
+
+    background: transparent;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+
+    outline: none;
+
+    margin: 0;
+    padding: 0;
+    height:  23px;
+}
+.page-title .jq-selectbox__select:hover {
+    background: transparent;
+    color: #045784;
+}
+.page-title .jq-selectbox__select:active {
+    background: transparent;
+    box-shadow: none;
+}
+.page-title .jq-selectbox__select-text {
+    display: inline;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    border-bottom: 1px dashed rgba(6, 123, 187, 0.5);
+}
+.page-title .jq-selectbox__select:hover .jq-selectbox__select-text {
+    border-bottom: 1px dashed rgba(4, 87, 132, 1);
+}
+.page-title .jq-selectbox.focused .jq-selectbox__select {
+    border: none;
+}
+.page-title .jq-selectbox__trigger {
+    position: absolute;
+    top: 13px;
+    right: -10px;
+    height: 5px;
+    width: 5px;
+    border: none;
+}
+.page-title .jq-selectbox__trigger-arrow {
+    border-left: 3px solid transparent;
+    border-right: 3px solid transparent;
+    border-top: 5px solid #000000;
+    border: none;
+    height: 0;
+    opacity: 0.3;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 0;
+}
+.page-title .jq-selectbox:hover .jq-selectbox__trigger-arrow {
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+.page-title .jq-selectbox__dropdown {
+    top: 0px;
+    width: 228px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: -2px 0 0 -11px;
+    padding: 0;
+    border: 1px solid #f2dbc0;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+    font-family: PTSansRegular,Arial,Helvetica,sans-serif;
+    font-size: 16px;
+}
+.page-title #city-styler .jq-selectbox__dropdown {
+    width: 180px;
+}
+.page-title .jq-selectbox li {
+    padding: 7px 10px;
+    color: #000000;
+}
+.page-title .jq-selectbox li.selected {
+    background-color: rgba(200, 237, 96, 0.5);
+    color: #000000;
+}
+.page-title .jq-selectbox li:hover {
+    background-color: rgba(200, 237, 96, 0.5);
+    color: #000000;
+}
+.page-title .jq-selectbox li.disabled {
+    color: #777;
+}
+.page-title .jq-selectbox li.disabled:hover {
+    background-color: rgba(200, 237, 96, 0.5);
+    color: #777;
+}
+/* -------------------- / Formstyler -------------------------------- */

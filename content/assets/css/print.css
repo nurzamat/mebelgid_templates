@@ -1,0 +1,101 @@
+h2 { padding: 0; margin: 0; display: inline-block }
+
+#menu, #search, #footer, .print, .noFav, #siteMap, #inSection, #sorts, #allSections,
+.bread, .rightCol, .string, #plusSalon, .similarAds, #smsCont, #cc, #boxOpener, .noprint,
+#favIt, .yashare-auto-init, .menuTab, #addMebel, #tableMenu, .toCenter, #selectCity,
+.foots, .howTo, .fotorama__arr, #ctrls { display:none }
+
+.yesPrint { display: block }
+
+.printPhoto { width: 200px; }
+
+
+.salonItem
+{
+    margin: 0 0 20px;
+    padding: 10px 10px 10px 120px;
+}
+.salonName
+{
+    position: relative;
+}
+.salonName img
+{
+    left: -105px;
+    position: absolute;
+    top: 0;
+}
+
+#descr table td { padding: .5em 1em 0 0 }
+
+#paidServices { padding-bottom: 1em }
+
+
+.tableGood
+{
+    display: inline-block;
+    padding: 7px;
+    margin: 0 10px 40px 0;
+    position: relative;
+    vertical-align: top;
+    font-size: .8em;
+    max-width: 210px;
+}
+.tableGood IMG, .noPhoto
+{
+    box-shadow: 1px 1px 2px #999;
+}
+.listDate
+{
+    display: inline-block;
+    padding-bottom: 3px;
+}
+.imgCont
+{
+    display: block;
+    height: 160px;
+    color: #000;
+    text-decoration: none;
+    line-height: 1.4em;
+}
+.noPhoto
+{
+    width: 160px;
+    height: 130px;
+    padding: 10px;
+}
+.noPhoto
+{
+    color: #000;
+    text-decoration: none;
+    overflow: hidden;
+}
+
+
+.table
+{
+    padding-top: 10px;
+    border-bottom: 2px dotted #999;
+}
+
+
+.pages SPAN, .pages .active {
+    margin-left: 0.5em;
+    margin-top: 2em;
+    padding: 0.5em;
+}
+.pages #cPage {
+    background-color: #F5EFE3;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 1px 1px 2px 0 #CCCCCC inset;
+}
+.siteMap TD {
+    font-size: 0.8em;
+    line-height: 1.8em;
+    padding-right: 3%;
+    vertical-align: top;
+    width: 17%;
+}
+
+.fotorama__frame, .fotorama__shaft, .fotorama__wrap { width: 300px !important; height: auto !important; }
+.fotorama__frame img { width: 300px !important; height: auto !important }
